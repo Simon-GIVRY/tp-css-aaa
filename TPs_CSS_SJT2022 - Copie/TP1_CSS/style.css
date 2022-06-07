@@ -1,0 +1,172 @@
+/*  Table des styles    */
+/*                      */
+/*  Contenus générique  */
+/*                      */
+/*  Header              */
+/*  Navbar              */
+/*  main                */
+/*  articles            */
+/*  formulaire          */
+/*  MoreandMore         */
+/*  footer              */
+
+
+/* Contenus génériques */
+body {
+    margin: 0;
+    background-color: #F6F6F6;
+    font-family: sans-serif;
+}
+h1{
+    color: #359E7B;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin: 50px 0px;
+    text-align: center
+}
+
+h2, h3 {
+    color: #006083;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+/* fin contenue générique */
+
+/* header */
+nav {
+    background-color: #359E7B;
+}
+header nav ul {
+    text-align: right;
+    margin: 0;
+}
+
+header nav li {
+    display: inline;
+}
+
+header ul a {
+    color: #F6F6F6;
+}
+
+header ul a, header nav ul {
+    padding: 15px;
+}
+
+header div.intro{
+    margin: auto;
+}
+
+header nav ul, header div.intro {
+    max-width: 1150px;
+}
+/* Fin header */
+
+/* main */
+main {
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* article */
+p.dateTime {
+    color: grey;
+    font-weight: bold;
+}
+main article a {
+    color: #359E7B;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* fin article */
+
+/* formulaire */
+main form {
+    max-width: 700px;
+    margin: auto;
+}
+
+main form textarea{
+    resize: none;
+    height: 300px;
+    border: solid #359E7B 2px;
+}
+
+main form .envoi {
+    border-radius: 5px;
+    background-color: #359E7B;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+main form .envoi, 
+input[type="text"], 
+textarea {
+    padding: 15px
+}
+
+input[type="text"], 
+textarea {
+    font-size: 25px;
+    border: 0;
+    border-bottom: 2px solid #359E7B;
+    margin-bottom: 20px;
+}
+
+main form input[type="text"],
+main form textarea, 
+main form .envoi{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+main form .envoi, 
+main form input[type="text"], 
+main form textarea {
+    box-sizing: content-box;
+}
+/* fin formulaire */
+
+/* more and more */
+main a.moreAndMore {
+    max-width: 250px;
+    margin: 40px auto;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    background-color: #359E7B;
+    border-radius: 5px;
+}
+/* fin more and more */
+
+/* footer */
+footer {
+    margin-top: 40px;
+    background-color: darkgray;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a, footer a:visited {
+    color: #FFFFFF;
+}
+/* fin footer */
+
+
+header nav a:hover {
+    background: linear-gradient( #359E7B, rgb(74, 180, 145));
+    margin-top: 0px;
+}
